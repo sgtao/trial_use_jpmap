@@ -6,7 +6,7 @@
   - refer GitHub : https://github.com/HemingwayLee/japan-map-js
 
 ## Demo
-Demo is nothing yet...
+- [Demo](https://sgtao.github.io/trial_use_jpmap/dist){:target="_blank"}
 
 ## Project setup
 ```
