@@ -1,0 +1,6 @@
+/*!
+ * Japan Map
+ *
+ * Released under the MIT license
+ *
+ */

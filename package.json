@@ -2,5 +2,22 @@
   "name": "trial_use_jpmap",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "serve": "webpack-cli serve --mode development",
+    "lint": "eslint --fix 'src/**/*.{js}'"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.2.3",
+    "babel-loader": "^8.2.2",
+    "rimraf": "^2.5.4",
+    "uglify-js": "^2.7.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
 }
