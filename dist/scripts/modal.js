@@ -29,12 +29,12 @@
 async function click_prefectures(data) {
   console.log('show info. of ', data);
   const modal_text = document.querySelector('#modal > p');
-  modal_text.textContent = '市区町村 of ' + data.name + '\n';
+  modal_text.textContent = '市区町村 of ' + data.name + '：';
   console.log('to ', modal_text.textContent);
   async function append_modal_text(data) {
     let append_text = "";
     await data.result.forEach(item => {
-      append_text += item.cityName + '、　';
+      append_text += item.cityName + '、';
     });
     modal_text.textContent += append_text;
   }

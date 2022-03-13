@@ -45,5 +45,5 @@ body {
 /* モーダルウィンドウを隠すスタイル（上に隠す） */
 #modal.hidden {
   transform: translateY(-2500px);
-  transition: transform .4s;
+  transition: transform 1s;
 }
