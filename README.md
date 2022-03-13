@@ -31,4 +31,8 @@ yarn lint
 ## License
 The MIT License (MIT)
 
+## Use assets data
+- `dist/assets`の市区町村データは、[RESAS-API](https://opendata.resas-portal.go.jp/docs/api/v1/cities.html)で取得しました
+
+
 
