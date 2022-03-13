@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <title>Example 1</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Examples of japan-map.js</title>
+  <link rel="stylesheet" href="css/vendors/bootstrap-reboot.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="my-map"></div>
-  <script src="./jpmap.js"></script>
-  <script>
-    var d = new jpmap.japanMap(document.getElementById("my-map"), {
-      showsPrefectureName: true,
-      // width: 1000,
-      width: window.innerWidth,
-      movesIslands: true,
-      // lang: 'en',
-      lang: 'ja',
-      onSelect: function(data){
-        alert(data.name);
-      }
-    });
-  </script>
+  <header>
+    <h1>GitHubで紹介された例</h1>
+    <p>参考：<a href="https://github.com/HemingwayLee/japan-map-js" target="_blank" rel="noopener noreferrer">HemingwayLee/japan-map-js</a></p>
+  </header>
+  <main>
+    <div>
+      <h2>GitHubで紹介された例</h2>
+      <p><a href="example1.html" target="_blank" rel="noopener noreferrer">例1.</a></p>
+      <iframe class="example" src="example1.html"  height="700" width="800" frameborder="1px"></iframe>
+    </div>
+    <div>
+      <h2>エリアに色を塗ってみる</h2>
+      <p><a href="example2.html" target="_blank" rel="noopener noreferrer">例2.</a></p>
+      <iframe class="example" src="example2.html" height="700" width="800" frameborder="1px"></iframe>
+    </div>
+  </main>
 </body>
 </html>
